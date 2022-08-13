@@ -1,0 +1,17 @@
+.navbar-light{
+    background-color: rgb(234, 78, 104);
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .nav-link{
+    color: rgb(255, 251, 251);
+    font-size: 1.2rem;
+  }
+  .navbar-brand{
+    color: blue;
+  
+  }
+  .nav-link:hover{
+     color:blue;
+  }

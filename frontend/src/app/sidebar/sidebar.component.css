@@ -1,0 +1,33 @@
+.category{
+    text-align: center;
+    color: azure;
+   
+    
+}
+.list-group{
+    border-radius: 6%;
+    color:white;
+    background-color: rgb(67, 26, 26);
+    width: 22%;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.main{
+    padding-top: 0%;
+    text-align:right;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .list{
+    color: white;
+  }
+
+  i{
+    color: black;
+    height: 20%;
+    width: 20% ;
+  }

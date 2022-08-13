@@ -1,0 +1,27 @@
+.image{
+    border-radius:100px;
+    width:130px;
+    margin-left: 30px;
+    background-color:linear-gradient(to right,rgba(154, 7, 9, 0.719), rgba(84, 3, 49, 0.861)) ;
+   padding:10px
+}
+.heading{
+    float:right; 
+    margin-right:73%; 
+    color:rgba(240, 124, 124, 0.9)
+}
+.top{
+    position: absolute; 
+    bottom: 90%; 
+    right: 0; 
+    width: 100px; 
+    text-align:right;
+    list-style:none;
+    height:36px; 
+    line-height:36px;
+    font-size:20px;  
+    margin-right:100px;
+    width:20px;
+    padding:0;
+    color:white
+}
