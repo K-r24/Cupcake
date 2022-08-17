@@ -14,6 +14,9 @@ import { ContactComponent } from './contact/contact.component';
 import { SpecialsComponent } from './specials/specials.component';
 import { SitemapsComponent } from './sitemaps/sitemaps.component';
 import { NewproductsComponent } from './newproducts/newproducts.component';
+import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +31,14 @@ import { NewproductsComponent } from './newproducts/newproducts.component';
     ContactComponent,
     SpecialsComponent,
     SitemapsComponent,
-    NewproductsComponent
+    NewproductsComponent,
+    LoginComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

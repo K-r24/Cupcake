@@ -1,0 +1,50 @@
+.cake{
+    text-align: center;
+  border-style: solid;
+  background-color: rgb(215, 184, 188);
+  width: 45%;
+  margin-inline-start: 53%;
+  border: 0cm;
+  
+  border-radius: 5px;
+}
+
+.list-group{
+  border-style: solid;
+  width: 25%;
+  margin-inline-start: 2%;
+  text-align: center;
+  color:white;
+  background-color: rgb(67, 26, 26);
+  border-radius: 20px;
+}
+.list{
+  color: white;
+}
+
+.footer{
+  text-align: center;
+  color:white;
+  background-color: rgb(67, 26, 26);
+  margin-bottom:-20px;
+  
+}
+.card-vertical{
+
+
+  width:150px;
+  margin-left: 10.5cm;
+  margin-top: -20cm;
+  
+  
+ 
+}
+.Cart{
+margin-left: 10%;
+}
+.icon{
+    color: black;
+  }
+  .span{
+    color: rgb(241, 124, 144);
+  }

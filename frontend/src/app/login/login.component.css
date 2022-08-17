@@ -1,0 +1,59 @@
+
+     .create{
+      border-style: solid;
+      padding-bottom: 2.5%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      background-color: white;
+    
+     
+     }
+
+     .registered{
+      border-style: solid;
+      padding-bottom: 2.5%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      background-color: white;
+      
+     }
+.click{
+  margin-left:60%;
+  border-radius: 5px;
+  position: relative;
+  margin-top: -5%;
+}
+
+.list-group{
+  border-style: solid;
+  width: 25%;
+  margin-inline-start: 2%;
+  text-align: center;
+  color:white;
+  background-color: rgb(67, 26, 26);
+  border-radius: 20px;
+}
+.list{
+  color: white;
+}
+.footer{
+  text-align: center;
+  color:white;
+  background-color: rgb(67, 26, 26);
+  margin-top: 20%;
+  margin-bottom: 0%;
+  
+}
+.icon{
+  color: black;
+}
+.span{
+  color: rgb(241, 124, 144);
+}
+
+.btn{
+  margin-left: 70%;
+}
+label{
+  margin-left: 30%;
+}
