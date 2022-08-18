@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-cake',
   templateUrl: './cake.component.html',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CakeComponent implements OnInit {
 
+
   constructor() { }
+   
+    
 
   ngOnInit(): void {
   }

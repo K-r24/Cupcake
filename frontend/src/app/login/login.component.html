@@ -92,7 +92,7 @@
 
 
 
-  .<body style="background-color: rgb(224, 204, 207); margin-top: -3%;">
+  <body style="background-color: rgb(224, 204, 207); margin-top: -3%;">
     <p style="padding: 8px ;"></p>
 
 
@@ -133,6 +133,7 @@
           
         </div>
        </form>
+       
        <form class="login" style="margin-inline-start: 30%; margin-top:-21cm">
         <div class="auth">
             <h1 style="padding: 1px ; text-align: center; color: rgb(234, 92, 115); background-color: whitesmoke;">Authentication</h1>
@@ -140,7 +141,7 @@
         <div class="create" >
             <p style="background-color: rgb(234, 92, 115); color:white;">&nbsp;Create an Account</p>
        
-       <form [formGroup]="requiredForm" novalidate (ngSubmit)="submit" id="search">
+       <form [formGroup]="requiredForm" novalidate (ngSubmit)="onSubmit" id="search">
         <!-- <label>Email <input type="text" name="s-user" id="s-user"></label>&nbsp;&nbsp;
         <label>Password <input type="text" name="s-pass" id="s-pass"></label>&nbsp;&nbsp;&nbsp;
         -->
@@ -153,7 +154,7 @@
             <!-- Email is required. -->
             </small>
          </small>
-         <button class="click" >Create an account</button>
+         <button class="click"  (click)="onSubmit()" [disabled]='requiredForm.invalid'>Create an account</button>
          </form>
         </div>
         <div style="padding-right: 10%;"><br>
@@ -185,7 +186,7 @@
             </small>
           </small> &nbsp;&nbsp;
           <br><br>
-          <button class="btn" type="submit" [disabled]='requiredForm.invalid'  (click)="submit()" routerLink="home">Authenticate</button>
+          <button class="btn" type="submit" [disabled]='requiredForm.invalid'  (click)="submit()" routerLink="/cake">Authenticate</button>
         
       </form>
     </div>
@@ -197,7 +198,7 @@
 
 
 
-<p style="padding: 15%;"></p>
+<p style="padding: 35%;"></p>
 <div class="footer" ><h3> ©The Cupcake Maker, All Rights Reserved</h3></div>
 
  

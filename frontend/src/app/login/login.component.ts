@@ -27,6 +27,10 @@ export class LoginComponent implements OnInit {
   }
   submit(){
     alert("login successsfull")
+    // window.location.reload();
+  }
+  onSubmit(){
+    alert("Created successsfully")
     window.location.reload();
   }
   ngOnInit()
